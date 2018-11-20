@@ -13,6 +13,9 @@ which, in turn is forked from:<br>
 ## Quick start on a fresh project (empty directory)
 ```
 yarn init
+```
+~~yarn add blendid~~
+```
 yarn add https://github.com/tommers-walker/blendid
 yarn run blendid init
 yarn run blendid
