@@ -15,15 +15,6 @@ module.exports = {
       // javascripts.dest in path-config.json
       app: ["@babel/polyfill", "./app.js"]
     },
-    babel: {
-      presets: [
-        ["es2015", {
-          "targets": {
-            "ie": "10"
-          }
-        }],
-      ]
-    }
   },
 
   browserSync: {
